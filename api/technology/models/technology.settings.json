@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "name": "technology",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "parent": {
+      "model": "technology"
+    },
+    "children": {
+      "collection": "technology"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
