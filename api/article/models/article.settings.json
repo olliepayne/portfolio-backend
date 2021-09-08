@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "lessons",
+  "collectionName": "articles",
   "info": {
-    "name": "lesson"
+    "name": "article",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "type": {
+      "model": "type"
+    },
     "name": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }
