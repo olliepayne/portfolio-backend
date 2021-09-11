@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "type": {
-      "model": "type"
-    },
     "name": {
       "type": "string"
     },
@@ -25,13 +22,14 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "category": {
+      "model": "type"
     }
   }
 }
