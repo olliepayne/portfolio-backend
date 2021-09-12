@@ -30,6 +30,18 @@
     },
     "category": {
       "model": "type"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "string"
+    },
+    "datePublished": {
+      "type": "date"
+    },
+    "dateEdited": {
+      "type": "date"
     }
   }
 }
