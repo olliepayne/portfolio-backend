@@ -28,9 +28,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "category": {
-      "model": "type"
-    },
     "content": {
       "type": "richtext"
     },
@@ -42,6 +39,9 @@
     },
     "dateEdited": {
       "type": "date"
+    },
+    "category": {
+      "model": "category"
     }
   }
 }
